@@ -44,6 +44,7 @@ public class BeansConfig {
         return new BCryptPasswordEncoder();
     }
 
+    /*
     @Bean
     public AuditorAware<String> auditorAware() {
         return new ApplicationAuditAware();
@@ -71,6 +72,6 @@ public class BeansConfig {
         source.registerCorsConfiguration("/**", config);
         return new CorsFilter(source);
 
-    }
+    }*/
 
 }
